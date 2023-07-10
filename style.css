@@ -1,0 +1,59 @@
+/* Primary Css */
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    width:1400px;
+}
+/* Flower Css */
+.flower{
+    width:1400px;
+    background-color: #fceef1;
+}
+
+.flower-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:40px;
+}
+
+.flower-text{
+    width:600px;
+}
+.flower-text h3{
+    font-size:60px;
+    font-weight: 700;
+    padding-bottom:25px;
+    color:#272727;
+}
+.flower-text p{
+    font-size:15px;
+    font-weight: 400;
+    color:#a1999b;
+    line-height: 20px;
+    padding-bottom:25px;
+    
+}
+.btn-primary{
+    padding:13px 25px;
+    border-radius: 5px;
+    background-color: #e55473;
+    border-color: #e55473;
+    color:#fbe8ec;
+    font-size:16px;
+    font-weight: 400;
+}
+.flower-picture{
+    width:600px;
+}
+
+.flower-img{
+    max-width:70%;
+}
+
