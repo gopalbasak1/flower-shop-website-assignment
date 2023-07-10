@@ -108,6 +108,7 @@ body{
     padding-bottom: 50px;
     margin-bottom: 50px;
     
+    
 }
 .b{
     background: rgba(5, 151, 160, 0.15);
@@ -171,8 +172,33 @@ body{
     text-align: center;
     padding-left:100px;
 }
-
+.discount-text span{
+    color:#eb7c94;
+}
 .discount-img{
     width:400px;
     padding-right:50px;
+}
+
+/* Instagram Css */
+.instagram-container{
+    width:1100px;
+    margin-bottom:50px;
+    padding-left:70px;
+}
+.ins-heading{
+    width:600px;
+    margin:10px auto;
+    text-align: center;
+}
+
+.ins-img{
+    width:1100px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    margin-left:63px;
+    padding-right:10px;
+    gap:25px;
+
 }
