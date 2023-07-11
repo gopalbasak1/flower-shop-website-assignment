@@ -107,7 +107,7 @@ body{
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     padding-top:50px;
-    padding-bottom: 50px;
+    padding-bottom: 1px;
     margin-bottom: 50px;
     
     
@@ -278,8 +278,9 @@ body{
 
 input {
     margin-left: 210px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    margin-right:10px;
+    padding-top: 17px;
+    padding-bottom: 17px;
     padding-right: 359px;
     border: 1px solid #fff;
     border-radius: 5px;
