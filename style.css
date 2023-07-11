@@ -47,8 +47,14 @@ body{
     background-color: #e55473;
     border-color: #e55473;
     color:#fbe8ec;
-    font-size:16px;
-    font-weight: 400;
+    font-size:18px;
+    font-weight: 500;
+}
+
+.btn-primary:hover{
+    color:#e55473;
+    background-color: #fbe8ec;
+    border-color:#fbe8ec;
 }
 .flower-picture{
     width:600px;
@@ -90,10 +96,6 @@ body{
     display: flex;
     justify-content: space-around;
     
-}
-.feature-photo{
-  
-
 }
 .feature-item{
    padding-bottom: 50px;
@@ -184,7 +186,7 @@ body{
 .instagram-container{
     width:1100px;
     margin-bottom:50px;
-    padding-left:70px;
+    padding-left:100px;
 }
 .ins-heading{
     width:600px;
@@ -285,4 +287,36 @@ input {
 
 .e-text{
    text-align: center;  
+}
+
+/* Footer */
+
+.footer-container{
+    width:1400px;
+    height: 400px;
+    background-color: #111010;
+    padding-top:90px;
+    text-align: center;
+}
+
+.footer-info{
+    width:600px;
+    margin:20px auto;
+}
+
+.f-t{
+    color:#fff;
+}
+
+.f-w{
+    color: rgba(255, 255, 255, .4);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.f-f{
+    color: rgba(250, 248, 248, 0.4);
+    font-size: 16px;
+    font-weight: 400;
 }
